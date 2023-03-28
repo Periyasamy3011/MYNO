@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-decoration: none;
+    background-image: url(image/aerial-photography-4928135_1280.jpg);
+    
+}
+
+.signup{
+    color: white;
+    margin-top: 100px;
+    margin-left: 400px;
+    border: 2px groove;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    width: 325px;
+    height: 300px;
+    background-color: rgba(80, 72, 62, 0.34);
+}
+
+h3{
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    margin:30px;
+    margin-left: 50px;
+}
+
+form input{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 5px 5px ;
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    background-color: none;
+}
+
+form button{
+    margin-top: 2%;
+    margin-left: 6px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+background-color: green;
+font-size: 15px;
+}
+
+h5{
+    text-align: center;
+    font-size: medium;
+}
+a{
+    color: greenyellow;
+}
+
+a:hover{
+    font-size: 15px;
+}
+

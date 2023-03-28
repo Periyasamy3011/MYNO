@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav{
+    background-color: rgb(235, 229, 229);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
+    position: fixed;
+    box-shadow: 0 0 10px black;
+}
+
+.nav a h1{
+    color: rgb(255, 115, 0);
+    border: 0;
+    padding-left: 5px;
+    text-shadow: 5px 5px 10px #0d0d0e, 0 0 10px white;
+    font-family: system-ui, -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+input{
+    width:400px;
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    background:none;
+    border-bottom:2px solid #070707;
+    cursor:default;
+}
+
+.search>i{
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+
+.btn i{
+    color: black;
+    width: 50px;
+    height: 20px;
+    font-size: 25px;
+}
+
+/* Header end */
+
+/* MENU START */
+.menu{
+    width: 100%;
+    height: 30px;
+    padding-top: 40px;
+}
+.menu ul li{
+    color: black;
+    list-style: none;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:large
+}
+
+/* MENU END */
+
+/* Container start */
+
+section h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow:3px 3px 5px #0d0d0e,1px 1px 0 #4d4d4f ;
+    color: red;
+}
+
+.top_brands{
+    border: none;
+    justify-content: space-evenly; 
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 1050px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+
+}
+
+/* PETER ENGLAND STYLE */
+
+.peter_england .content{
+    padding-left: 30px;
+}
+.peter_england .content h6{
+    font-size:12px;
+    padding-left: 7px;
+}
+
+.peter_england .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+
+/* PETER ENGLAND STYLE END */
+
+
+/* .Allen_solly STYLE */
+
+.Allen_solly .content{
+    padding-left: 30px;
+}
+.Allen_solly .content h6{
+    font-size:12px;
+    padding-left: 12px;
+}
+
+.Allen_solly .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+
+/* Allen_solly STYLE END */
+
+/* .Arrow STYLE */
+
+.Arrow .content{
+    padding-left: 30px;
+}
+.Arrow .content h6{
+    font-size:12px;
+    padding-left: 20px;
+}
+
+.Arrow .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .Arrow STYLE END */
+
+/* .jack_jones STYLE */
+
+.jack_jones .content{
+    padding-left: 30px;
+}
+.jack_jones .content h6{
+    font-size:12px;
+    padding-left: 10px;
+}
+
+.jack_jones .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* jack_jones STYLE END */
+
+
+/* .Roadster STYLE */
+
+.Roadster .content{
+    padding-left: 30px;
+}
+.Roadster .content h6{
+    font-size:12px;
+    padding-left: 15px;
+}
+
+.Roadster .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .Roadster STYLE END */
+
+
+/* .blackberrys STYLE */
+
+.blackberrys .content{
+    padding-left: 30px;
+}
+.blackberrys .content h6{
+    font-size:12px;
+    padding-left: 7px;
+}
+
+.blackberrys .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .blackberrys STYLE END */
+
+/* .Breakbounce STYLE */
+
+.Breakbounce .content{
+    padding-left: 30px;
+}
+.Breakbounce .content h6{
+    font-size:12px;
+    padding-left: 7px;
+}
+
+.Breakbounce .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .Breakbounce STYLE END */
+
+
+/* .lee STYLE */
+.lee{
+    padding-top: 2%;
+}
+
+.lee .content{
+    padding-left: 30px;
+}
+.lee .content h6{
+    font-size:12px;
+    padding-left: 30px;
+}
+
+.lee .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .lee STYLE END */
+
+
+/* .levis STYLE */
+.levis{
+    padding-top: 2%;
+}
+.levis .content{
+    padding-left: 30px;
+}
+.levis .content h6{
+    font-size:12px;
+    padding-left: 30px;
+}
+
+.levis .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .levis STYLE END */
+
+
+/* .louis_philippe STYLE */
+.louis_philippe{
+padding-top: 2%;
+}
+.louis_philippe .content{
+    padding-left: 30px;
+}
+.louis_philippe .content h6{
+    font-size:12px;
+    padding-left: 7px;
+}
+
+.louis_philippe .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .louis_philippe STYLE END */
+
+/* .louis_philippe STYLE */
+.raymond{
+    padding-top: 2%;
+}
+.raymond .content{
+    padding-left: 30px;
+}
+.raymond .content h6{
+    font-size:12px;
+    padding-left: 7px;
+}    
+.raymond .content span{
+    margin-left: 3px;
+    color: gold;
+    background-color: rgb(89, 89, 87);
+    font-size: 12.5px;
+}
+/* .raymond STYLE END */
+
+
+/* MODEL start */
+.shirts{
+    width: 1000px;
+    height: 800px;
+    justify-content: space-between;
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.shirt_items{
+    width: auto;
+    height: 300px;
+    border: 0;
+}
+
+
+.shirt_items h4{
+    color: black;
+    padding:0 70px;
+    font-size: large;    
+}
+
+.shirt_items .price{
+    padding-left: 30px;
+}
+.shirt_items .off-price{
+    color:#070707;
+    font-size: 25px;
+}
+
+.shirt_items .ori-price{
+    color:#070707;
+    text-decoration-line: line-through;
+    font-size: 15px;
+}
+
+.shirt_items .offer{
+    color: red;
+    font-weight: bold;
+
+}
+.shirt_items .rating{
+    color: goldenrod;
+    padding-left: 55px;
+}
+
+.shirt_items .rating span{
+    color:black;
+}
+
+/* model end */
+
+
+
+/* OFFER START */
+
+.Offers{
+    width: 1000px;
+    height:300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 2%;
+}
+.Offer{
+    border: 2px solid black;
+}
+.Offers h4{
+    color: black;
+    padding-left: 60px;    
+}
+
+.Offers span{
+    color: red;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+.Offers :hover{
+    border:none;
+}
+
+/* OFFER END */
+
+/* SHOP BY OCASSION start */
+
+.shop_by_ocassion{
+    width: 1000px;
+    height:300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.shop_by_ocassion .shops{
+    border: 1px solid black;
+}
+
+.shop_by_ocassion .shops:hover{
+    box-shadow: 0 3px 3px black;
+}
+.shop_by_ocassion .content{
+    margin-left: 15px;
+    margin-top: 2%;
+    
+}
+
+.shop_by_ocassion h4{
+    color: black;
+    
+}
+
+.shop_by_ocassion span{
+    color: red;
+    font-weight: bolder;
+    font-size: small;
+    padding-left: 5px;
+}
+
+/* SHOP BY OCASSION END */
+
+/* watch section start */
+.watches{
+    width: 1050px;
+    height: 800px;
+    justify-content: space-evenly;
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.watch{
+    width: auto;
+    height: 300px;    
+}
+
+.watches h4{
+    color: black;
+    padding:0 70px;
+    font-size: large;    
+}
+
+.watches .price{
+    padding-left: 30px;
+}
+.watches .off-price{
+    color:#070707;
+    font-size: 25px;
+}
+
+.watches .ori-price{
+    color:#070707;
+    text-decoration-line: line-through;
+    font-size: 15px;
+}
+
+.watches .offer{
+    color: red;
+    font-weight: bold;
+
+}
+.watches .rating{
+    color: goldenrod;
+    padding-left: 55px;
+}
+
+.watches .rating span{
+    color:black;
+}
+
+/* watch seaction end */
+
+/* watch section start */
+.shoes{
+    width: 1050px;
+    height: 800px;
+    justify-content: space-evenly;
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.watch{
+    width: auto;
+    height: 300px;    
+}
+
+.shoes h4{
+    color: black;
+    padding:0 70px;
+    font-size: large;    
+}
+
+.shoes .price{
+    padding-left: 30px;
+}
+.shoes .off-price{
+    color:#070707;
+    font-size: 25px;
+}
+
+.shoes .ori-price{
+    color:#070707;
+    text-decoration-line: line-through;
+    font-size: 15px;
+}
+
+.shoes .offer{
+    color: red;
+    font-weight: bold;
+
+}
+.shoes .rating{
+    color: goldenrod;
+    padding-left: 55px;
+}
+
+.shoes .rating span{
+    color:black;
+}
+/* shoe end */
+
+/* Favourite start */
+
+.FAVOURITE{
+    width: 1000px;
+    height:200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 2%;
+}
+
+.FAVOURITE h4{
+    color: black;
+    padding-left: 60px;    
+}
+
+.FAVOURITE span{
+    color: red;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+/* Favourite end */
+
+/* footer start */
+footer{
+    background-color:black;
+    width: 100%;
+    height: 200px;
+    margin-top: 1%;
+    border-top: 1px solid #4d4d4f;
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer ul{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    font-family: monospace;
+}
+
+footer a i{
+    padding: 10px;
+    font-size: 30px;
+}
+footer a i:hover{
+    font-size: 32px;
+    color: rgba(8, 0, 255, 0.857);
+}
+
+footer p{
+    padding-top: 10px;
+}
+footer p .pp{
+    font-size: 10px;
+    color:rgba(0, 0, 255, 0.668);
+    cursor: pointer;
+}
+
+footer p .pp:hover{
+    font-size: 12px;
+}
+
+/* footer end */
